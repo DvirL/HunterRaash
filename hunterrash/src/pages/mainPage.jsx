@@ -3,7 +3,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import '../App.css';
-import Sound from '../components/sound';
+import Sound from '../components/Sound';
 
 export default class MainPage extends Component {
   render() {
@@ -17,12 +17,26 @@ export default class MainPage extends Component {
           </Toolbar>
         </AppBar>
 
-        <Sound 
-          title="פאפס"
-          description="adfgsf"
-          image="asdf.jpg"
-          url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
-        />
+        <div className="sounds-container">    
+          <Sound 
+            title="פאפס"
+            description="adfgsf"
+            image="asdf.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound 
+            title="פאפס"
+            description="adfgsf"
+            image="asdf.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound 
+            title="פאפס"
+            description="adfgsf"
+            image="asdf.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+        </div>
       </div>
     );
   }
