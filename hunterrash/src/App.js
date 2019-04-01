@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import './App.css';
 import MainPage from './pages/mainPage';
 
-class App extends Component {
+const theme = createMuiTheme({
+  direction: 'rtl', // Both here and <body dir="rtl">
+});
+
+class App extends Component {  
   render() {
     return (
-      <div className="App">
-        <MainPage />
-      </div>
+      <MuiThemeProvider theme={theme}>
+        <div className="App">
+          <MainPage />
+        </div>
+      </MuiThemeProvider>
     );
   }
 }
