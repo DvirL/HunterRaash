@@ -3,20 +3,22 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
 const styles = theme => ({
   card: {
     display: 'flex',
-    flexDirection: 'column'
+    marginTop: '15px'
   },
   details: {
     display: 'flex',
     flexDirection: 'column',
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat'
   },
   content: {
     flex: '1 0 auto',
+    textAlign: 'right'
   },
   cover: {
     width: 151,
@@ -35,10 +37,11 @@ const styles = theme => ({
 
 const Sound = (props) => {
   const { classes } = props;
+  const backgroundImage = {backgroundImage: `url(${props.image})`};
 
   return (
     <Card className={classes.card}>
-      <div className={classes.details}>
+      <div className={classes.details} style={backgroundImage}>
         <CardContent className={classes.content}>
           <Typography component="h5" variant="h5">
             {props.title}
@@ -51,11 +54,6 @@ const Sound = (props) => {
           <audio src={props.url} controls />
         </div>
       </div>
-      <CardMedia
-        className={classes.cover}
-        image={props.image}
-        title={props.title}
-      />
     </Card>
   );
 }

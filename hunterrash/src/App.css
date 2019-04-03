@@ -26,6 +26,7 @@
 .sounds-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 @keyframes App-logo-spin {

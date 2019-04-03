@@ -19,21 +19,51 @@ export default class MainPage extends Component {
 
         <div className="sounds-container">    
           <Sound 
-            title="פאפס"
-            description="adfgsf"
-            image="asdf.jpg"
+            title="שניי"
+            description="שניי שניי"
+            image="images/shney.jpg"
             url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
           />
           <Sound 
-            title="פאפס"
-            description="adfgsf"
-            image="asdf.jpg"
+            title="תוםדביר"
+            description="תוווווווווום דביר"
+            image="images/TomDvir.jpg"
             url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
           />
           <Sound 
-            title="פאפס"
-            description="adfgsf"
-            image="asdf.jpg"
+            title="שניי"
+            description="שניי שניי"
+            image="images/shney.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound 
+            title="תוםדביר"
+            description="תוווווווווום דביר"
+            image="images/TomDvir.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound 
+            title="שניי"
+            description="שניי שניי"
+            image="images/shney.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound 
+            title="תוםדביר"
+            description="תוווווווווום דביר"
+            image="images/TomDvir.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound 
+            title="שניי"
+            description="שניי שניי"
+            image="images/shney.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound 
+            title="תוםדביר"
+            description="תוווווווווום דביר"
+            image="images/TomDvir.jpg"
             url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
           />
         </div>
