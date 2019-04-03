@@ -18,51 +18,11 @@ export default class MainPage extends Component {
         </AppBar>
 
         <div className="sounds-container">    
-          <Sound 
-            title="שניי"
-            description="שניי שניי"
+          <Sound
             image="images/shney.jpg"
             url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
           />
-          <Sound 
-            title="תוםדביר"
-            description="תוווווווווום דביר"
-            image="images/TomDvir.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
-          />
-          <Sound 
-            title="שניי"
-            description="שניי שניי"
-            image="images/shney.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
-          />
-          <Sound 
-            title="תוםדביר"
-            description="תוווווווווום דביר"
-            image="images/TomDvir.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
-          />
-          <Sound 
-            title="שניי"
-            description="שניי שניי"
-            image="images/shney.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
-          />
-          <Sound 
-            title="תוםדביר"
-            description="תוווווווווום דביר"
-            image="images/TomDvir.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
-          />
-          <Sound 
-            title="שניי"
-            description="שניי שניי"
-            image="images/shney.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
-          />
-          <Sound 
-            title="תוםדביר"
-            description="תוווווווווום דביר"
+          <Sound
             image="images/TomDvir.jpg"
             url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
           />
