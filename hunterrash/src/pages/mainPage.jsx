@@ -17,13 +17,37 @@ export default class MainPage extends Component {
           </Toolbar>
         </AppBar>
 
-        <div className="sounds-container">    
+        <div className="sounds-container">
           <Sound
             image="images/shney.jpg"
             url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
           />
           <Sound
             image="images/TomDvir.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound
+            image="images/Thini.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound
+            image="images/Toast.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound
+            image="images/youngBoiz.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound
+            image="images/paps.jpg"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound
+            image="images/Thug.png"
+            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+          />
+          <Sound
+            image="images/airhorn.jpg"
             url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
           />
         </div>
