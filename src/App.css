@@ -17,6 +17,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: right;
 }
 
 .App-link {
@@ -27,6 +28,10 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 @keyframes App-logo-spin {
