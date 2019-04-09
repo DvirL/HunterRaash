@@ -72,7 +72,7 @@ export default class MainPage extends Component {
 
     return (
       <div>
-        <AppBar position="static" color="default">
+        <AppBar className="App-header" position="static" color="default">
           <Toolbar>
             <Typography className="grow" variant="h6" color="inherit">
               האנטרעש
