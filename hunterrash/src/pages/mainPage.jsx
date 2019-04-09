@@ -5,6 +5,41 @@ import Typography from '@material-ui/core/Typography';
 import '../App.css';
 import Sound from '../components/Sound';
 
+const sounds = [
+  {
+    image: "images/shney.jpg",
+    url: "sounds/ShneyShney.mp3"
+  },
+  {
+    image: "images/TomDvir.jpg",
+    url: "sounds/TomDvir.mp3"
+  },
+  {
+    image: "images/Thini.jpg",
+    url: "sounds/ThiniBottle.mp3"
+  },
+  {
+    image: "images/Toast.jpg",
+    url: "sounds/Toast.mp3"
+  },
+  {
+    image: "images/youngBoiz.jpg",
+    url: "sounds/OyLo.mp3"
+  },
+  {
+    image: "images/paps.jpg",
+    url: "sounds/ShmipsiPoops.mp3"
+  },
+  {
+    image: "images/Thug.png",
+    url: "sounds/MyBrotha.mp3"
+  },
+  {
+    image: "images/airhorn.jpg",
+    url: "sounds/AirHorn.mp3"
+  }
+];
+
 export default class MainPage extends Component {
   render() {
     return (
@@ -18,38 +53,14 @@ export default class MainPage extends Component {
         </AppBar>
 
         <div className="sounds-container">
-          <Sound
-            image="images/shney.jpg"
-            url="sounds/ShneyShney.mp3"
-          />
-          <Sound
-            image="images/TomDvir.jpg"
-            url="sounds/TomDvir.mp3"
-          />
-          <Sound
-            image="images/Thini.jpg"
-            url="sounds/ThiniBottle.mp3"
-          />
-          <Sound
-            image="images/Toast.jpg"
-            url="sounds/Toast.mp3"
-          />
-          <Sound
-            image="images/youngBoiz.jpg"
-            url="sounds/OyLo.mp3"
-          />
-          <Sound
-            image="images/paps.jpg"
-            url="sounds/ShmipsiPoops.mp3"
-          />
-          <Sound
-            image="images/Thug.png"
-            url="sounds/MyBrotha.mp3"
-          />
-          <Sound
-            image="images/airhorn.jpg"
-            url="sounds/AirHorn.mp3"
-          />
+          {
+            sounds.map(sound => (
+              <Sound
+                image={sound.image}
+                url={sound.url}
+              />
+            ))
+          }
         </div>
       </div>
     );
