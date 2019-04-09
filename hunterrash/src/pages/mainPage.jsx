@@ -37,6 +37,14 @@ const sounds = [
   {
     image: "images/airhorn.jpg",
     url: "sounds/AirHorn.mp3"
+  },
+  {
+    image: "images/adi.png",
+    url: "sounds/Imale.mp3"
+  },
+  {
+    image: "images/guns.png",
+    url: "sounds/guns.mp3"
   }
 ];
 
