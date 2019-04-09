@@ -1,5 +1,7 @@
-.sound-container {
+.sound {
     display: flex;
+    border-radius: 6px;
+    box-shadow: 2px 2px 1px 1px #e5e5ff;
     margin-top: 15px;
     margin-left: 10px;
     max-width: 300px;
@@ -9,6 +11,10 @@
     flex-direction: column;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.sound:hover {
+    opacity: 0.7;
 }
 
 @media (max-width: 800px) {
