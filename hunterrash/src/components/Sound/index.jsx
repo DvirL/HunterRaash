@@ -5,10 +5,6 @@ import './sound.css';
 
 export default class Sound extends React.Component {
   static propTypes = {
-    classes: PropTypes.object.isRequired,
-    theme: PropTypes.object.isRequired,
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
   };

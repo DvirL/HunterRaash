@@ -20,35 +20,35 @@ export default class MainPage extends Component {
         <div className="sounds-container">
           <Sound
             image="images/shney.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+            url="sounds/ShneyShney.mp3"
           />
           <Sound
             image="images/TomDvir.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+            url="sounds/TomDvir.mp3"
           />
           <Sound
             image="images/Thini.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+            url="sounds/ThiniBottle.mp3"
           />
           <Sound
             image="images/Toast.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+            url="sounds/Toast.mp3"
           />
           <Sound
             image="images/youngBoiz.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+            url="sounds/OyLo.mp3"
           />
           <Sound
             image="images/paps.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+            url="sounds/ShmipsiPoops.mp3"
           />
           <Sound
             image="images/Thug.png"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+            url="sounds/MyBrotha.mp3"
           />
           <Sound
             image="images/airhorn.jpg"
-            url="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"
+            url="sounds/AirHorn.mp3"
           />
         </div>
       </div>
