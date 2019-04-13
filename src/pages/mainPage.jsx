@@ -60,6 +60,10 @@ const sounds = [
   {
     image: "images/bamba.jpg",
     url: "sounds/Yashvatz.mp3"
+  },
+  {
+    image: "images/Yaps.jpg",
+    url: "sounds/Yaps.mp3"
   }
 ];
 
